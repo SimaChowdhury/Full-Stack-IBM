@@ -39,6 +39,9 @@
     z-index: 2;
     
 }
+#parent :hover+#box{
+    
+}
 #sticky{
     height: 50px;
     width: 100%;
