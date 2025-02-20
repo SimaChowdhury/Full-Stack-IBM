@@ -67,7 +67,7 @@ input[type=text] {
 #main .equal {
     background: #19b0cb;
     color: white;
-    box-shadow: 4px 4px 10px rgba(255, 51, 102, 0.6);
+    box-shadow: 4px 4px 10px rgba(215, 212, 213, 0.6);
 }
 
 #main .equal:hover {
