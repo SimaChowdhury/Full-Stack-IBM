@@ -1,9 +1,9 @@
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background: url('https://w0.peakpx.com/wallpaper/8/1/HD-wallpaper-day-and-night-sun-luna-luminos-ryky-dragon-fantasy-moon-pink-blue.jpg') no-repeat center center/cover; */
+
     font-family: 'Poppins', sans-serif;
 }
 
@@ -43,7 +43,7 @@ input[type=text] {
     text-align: right;
     outline: none;
     cursor: pointer;
-}
+} */
 
 #main > div {
     display: flex;
