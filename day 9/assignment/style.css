@@ -1,0 +1,878 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: sans-serif;
+}
+.header{
+    position: sticky;
+    top: 0;
+}
+#navbar{
+    height: 54px;
+    /* width: 1170px; */
+    /* position: sticky;
+    top: 0; */
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    
+}
+#nav-logo{
+    height: 19px;
+    width: 142px;
+    .logo{
+        background-image: url(paytm_logo.svg);
+        background-size: cover;
+        height: 19px;
+        width: 142px;
+}
+}
+
+.element1{
+    height: 54px;
+}
+.element1 ul{
+
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    justify-items: center;
+    /* padding-left: 80px;
+    padding-right: 80px; */
+    gap: 10px;
+    padding-top: 20px;
+}
+.element1 li{
+    list-style-type: none;
+    /* color: #000000;
+    font-size: 1rem;
+    font-weight: 600; */
+    border: none;
+    text-decoration: none;
+}
+.element1 li{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.download{
+    height: 50px;
+    width: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.download i{
+    height: 12px;
+    width: 12px;
+    margin: 0px 5px 0px 0px ;
+}
+.download p{
+    color: #002970;
+    font-size: 14px;
+    font-weight: 600;
+}
+#navbar .img{
+    height: 36px;
+    width: 107px;
+    background-color: #1d025b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    
+}
+.img .person{
+    background-image: url(https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logoutImg.svg);
+    height: 32px;
+    width: 32px;
+    margin: 0px 10px 0px 0px;
+}
+.img span{
+    height: 17px;
+    width: 48px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* box1 */
+.box1{
+    height: 280px;
+    width: 90%;
+    background-color: #d8f0f9;
+    padding: 16px 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+.box1 .flights{
+    height: 36px;
+    width: 1400px;
+    
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+    
+    
+}
+.box1 .flights p{
+    height: 16px;
+    width: 47px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.box1 .flights .flight{
+    height: 34px;
+    width: 79px;
+    padding-left: 10px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 .flights .bus{
+    height: 34px;
+    width: 79px;
+    padding-left: 10px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 .flights .trains{
+    height: 34px;
+    width: 79px;
+    padding-left: 10px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 .flights .intl{
+    height: 34px;
+    width: 79px;
+    padding-left: 10px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 .flights .intl p{
+    display: flex;
+}
+.pay-logo{
+        height: 21px;
+        width: 140px;
+        padding-left: 650px;
+}
+.ways{
+    height: 180px;
+    width: 1300px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 8px 0px 0px 0px;
+    padding: 20px 0px 16px 20px;
+}
+.way1{
+    height: 17px;
+    /* width: 90px; */
+    display: flex;
+    gap: 20px;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 0 20px 12px;
+    /* border-bottom: 1px solid black; */
+
+}
+.way1 .one{
+    padding: 0 0px 0 0px;
+}
+/* .way1 label{
+    padding: 0 0 0 24px;
+} */
+ .way1 label{
+    font-size: 14px;
+    font-weight: 500;
+ }
+ .way2{
+    height: 65px;
+    width: 1170px;
+    padding: 0 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+ }
+ .way2 .four img{
+    height: 30px;
+    width: 30px;
+ }
+ .way2 .three{
+    display: flex;
+    flex-direction: column;
+ }
+ .way2 .four{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    border-right: 1px solid black;
+ }
+ .way2 .four #spam{
+    padding-left: 30px;
+ }
+ .way2 .five{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    border-right: 1px solid black;
+ }
+ .way2 .six{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    border-right: 1px solid black;
+ }
+ .way2 .seven{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    border-right: 1px solid black;
+ }
+ .way2 .four #mum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .way2 button{
+    height: 52px;
+    width: 154px;
+    background-color: #00baf2;
+    color: #ffffff;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+ }
+ .way3{
+    height: 48px;
+    width: 1150px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 12px 0 0;
+
+ }
+ .way3 .ammount .amt1 img{
+    height: 20px;
+    width: 20px;
+ }
+ .way3 .ammount .amt1{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    color: green;
+ }
+ .way3 .ammount1{
+    height: 40px;
+    width: 100px;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 3px 9px;
+ }
+ .way3 .ammount2{
+    height: 40px;
+    width: 100px;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 3px 9px;
+ }
+ .way3 .ammount3{
+    height: 40px;
+    width: 100px;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 3px 9px;
+ }
+ .way3 .ammount1 .amt2{
+    font-size: 14px;
+    font-weight: 600;
+ }
+ .way3 .ammount1 .amt3{
+    font-size: 12px;
+ }
+ .way3 .ammount2 .amt4{
+    font-size: 14px;
+    font-weight: 600;
+ }
+ .way3 .ammount2 .amt5{
+    font-size: 12px;
+ }
+ .way3 .ammount3 .amt6{
+    font-size: 14px;
+    font-weight: 600;
+ }
+ .way3 .ammount3 .amt7{
+    font-size: 12px;
+ }
+ .box2{
+    height: 154px;
+    width: 90%;
+    background-color: #e8f8fd;
+    padding: 16px 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 30px;
+ }
+ .box2 .image1{
+    background-image: url(kumbh.avif);
+    height: 125px;
+    width: 376px;
+    background-size: cover;
+    border-radius: 5px;
+ }
+ .box2 .image2{
+    background-image: url(image_kumbh.avif);
+    height: 125px;
+    width: 376px;
+    background-size: cover;
+    border-radius: 5px;
+ }
+ .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    width: 100%; 
+    height: 310px;
+    background-color: #f7f9fc;
+    .card1{
+       /* border: 2px solid red; */
+        height: 250px;
+        width: 40%;
+        border-radius: 15px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;           
+         /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+        display: flex;
+        flex-direction:  column;
+        justify-content: space-between;            /* text-align: center; */
+        .icons {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
+            /* :hover{
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            } */
+            
+        }
+        .icons div {
+            text-align: center;
+            /* padding-top: 20px; */
+            font-size: 14.8px;
+            img{
+                width: 48px;
+                height: 48px;
+            }
+            
+        }
+        .icons img {
+            width: 40px;
+            height: 40px;
+        }
+        .promo {
+            
+             img{
+                height: 58px;
+                width: 100%;
+             }
+        }
+        
+
+    }
+    
+    .card2{
+        /* border: 2px solid blue; */
+        height: 250px;
+        width: 40%;
+        border-radius: 10px;
+        /* border: 2px solid red; */
+        /* height: 280px; */
+        width: 40%;
+        border-radius: 15px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+        display: flex;
+        flex-direction:  column;
+        justify-content: space-between;
+        /* text-align: center; */
+        .icons {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .icons div {
+            text-align: center;
+            text-align: center;
+            font-size: 14.8px;
+            img{
+                width: 48px;
+                height: 48px;
+            }
+        }
+        .icons img {
+            width: 40px;
+            height: 40px;
+        }
+        .promo {
+            img{
+                height: 58px;
+                width: 100%;
+            }
+        }
+        
+        
+    }
+}
+.money{
+    width: 100%;
+    display: flex;
+    
+    
+}
+.money .paytm_money{
+    height: 600px;
+    width: 80%;
+    background-image: url(https://assetscdn1.paytm.com/images/catalog/view/1617695245399.png);
+    background-size: cover;
+    /* background-color: #ffffff; */
+    padding: 16px 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* gap: 10px; */
+
+}
+.money .pay img{
+    height: 450px;
+    width: 470px;
+    padding-left: 10px;
+    
+}
+.paytm{
+    height: 424px;
+    width: 450px;
+    margin: 0 68px 0 0;
+}
+.paytm2 h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 0 18px;
+}
+.paytm3 p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 18px;
+}
+.paytm2{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 0 18px;
+}
+.paytm3{
+    margin: 0 0 32px;
+}
+.paytm4 button{
+    height: 35px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: #002970;
+    
+}
+.paytm4 button p{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.paytm1 img{
+    height: 50px;
+    width: 134px;
+    margin: 0 0 12px;
+}
+.customer-support{
+    background-color: #1e2b5b;
+    height: 69px;
+    width: 81%;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    gap: 14px;
+
+    .logo{
+        img{
+            height: 45px;
+            width: 45px;
+        }
+    }
+    .text{
+        color: #fff;
+        font-size: 17.5px;
+        font-weight: bold;
+        margin-right: 270px;
+        
+    }
+    .button{
+        background-color: #1e2b5b;
+        height: 35px;
+        width: 150px;
+        border-radius: 30px;
+        border: 1px solid #fff;
+        
+        a{
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            p{
+                font-size: 14.5px;
+                padding-top:9px;
+                font-weight: bold;
+            }
+
+            
+        }
+        
+        
+    }
+}
+.cards{
+    height: 700px;
+    width: 80%;
+    margin-left: 160px;
+    
+    display: flex;
+    gap: 12px;
+    .card1{
+        background-color: #ffffff;
+        background-image: url(https://assetscdn1.paytm.com/images/catalog/view_item/1725638720587.png);
+        background-size: cover;
+        border-radius: 20px;
+        width: 50%;
+        padding: 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .logo1{
+            img{
+                height: 40px;
+                width: 140px;
+            }
+        }
+        .text1{
+            font-size: 21px;
+        }
+        .text2{
+            font-size: 17.5px;
+        }
+        .button{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            height: 30px;
+            width: 410px;
+            .apply{
+                border: 1px solid #1e2b5b ;
+                width: 115px;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                padding: 6px;
+                a{
+                    color: #1e2b5b;
+                    font-weight: 600;
+                }
+            }
+            .bank{
+                img{
+                    height: 35px;
+                    width: 205px;
+                }
+            }
+        }
+       .img{
+            display: flex;
+            justify-content: center;
+            img{
+                height: 360px;
+                width: 360px;
+                display: flex;
+    align-items: center;
+    justify-content: center;
+                /* bottom: 0px; */
+                padding-left: 10px;
+                /* padding-top: 350px; */
+        }
+       }
+    }
+    .card2{
+        background-color: #ffffff;
+        
+        border-radius: 20px;
+        width: 50%;
+        padding: 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .logo2{
+            img{
+                height: 44px;
+                width: 140px;
+
+            }
+        }
+        .text1{
+            font-size: 21px;
+        }
+        .text2{
+            font-size: 18.5px;
+        }
+        .button{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            height: 30px;
+            width: 410px;
+            .get-it{
+                border: 1px solid #1e2b5b ;
+                width: 115px;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                padding: 6px;
+                a{
+                    color: #1e2b5b;
+                    font-weight: 600;
+                }
+            }
+            
+        }
+       .img{
+            display: flex;
+            justify-content: center;
+            img{
+            height: 320px;
+            width: 400px;
+            align-items: center;
+    justify-content: center;
+            padding-left: 10px;
+            /* padding-top: 350px; */
+        }
+       }
+    }
+}
+.payment{
+    display: flex;
+    /* align-items: center; */
+    gap: 50px;
+    width: 80%;
+    height: 540px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 50px;
+    padding-left: 90px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    margin-left: 160px;
+    margin-top: 30px;
+    .card1 {
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        padding-right: 50px;
+    }
+    
+    .logo img {
+        height: 20px;
+    }
+    
+    .brand-title {
+        font-size: 41px;
+        font-weight: 600;
+        color: black;
+        margin: 20px 0;
+    }
+    
+    .brand-para {
+        font-size: 16px;
+        color: black;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    
+    .app-links {
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .app-links img {
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .card2 {
+        width: 50px;
+        border-radius: 15px;
+        img{
+            height: 450px;
+            width: 480px;
+        }
+    }
+
+}
+.paytm-buisness{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #fff;
+    /* margin-left: 50px; */
+    /* margin-top: 33px;
+    margin-bottom: 20px; */
+    margin: 0 70px 0 0;
+    width: 80%;
+    height: 550px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    
+    .text{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 60px;
+        
+        .logo{
+            img{
+                height: 50px;
+                width: 75px;
+            }
+        }
+        h1{
+            font-size: 44px;
+            width: 500px
+        }
+        p{
+            font-size: 17.5px;
+            /* font-weight:bold ; */
+            width: 500px;
+        }
+        .button{
+            background-color: #1e2b5b;
+            align-items: center;
+            height: 35px;
+            width: 150px;
+            padding-left:20px;
+            border-radius: 30px;
+            a{
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                p{
+                    font-size: 15px;
+                    padding-top:9px;
+                }
+
+                
+            }
+            
+            
+        }
+    }
+    .img{
+        /* width: 48%; 
+        height: 415px;
+        width: 380px; */
+        img{
+            height: 435px;
+            width: 470px;
+        }
+    }
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+    background-color: #ffffff;
+    gap: 30px;
+    div{
+        display: flex;
+        gap: 15px;
+        img{
+            color: rgba(1, 1, 1, 0.539);
+        }
+        a{
+            color: rgba(1, 1, 1, 0.539);
+            font-weight: bold;
+        }
+    }
+    span{
+        color: rgba(1, 1, 1, 0.539);
+        font-size: 14px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        /* padding-top: 25px; */
+        .right{
+            margin-left: 858px;
+            display: flex;
+            align-items: center;
+        }
+
+    }
+}
+.footer>div::after{
+    content: " ";
+    flex: 1 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.last1{
+    background-color: #00baf2;
+    height: 14px;
+}
+.last2{
+    background-color: #002970;
+    height: 14px;
+}
