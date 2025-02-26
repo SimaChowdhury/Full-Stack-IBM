@@ -1,30 +1,30 @@
 
-// const student = {     
-//         name: "Aryan Kumar", 
-//         rollNumber: 101, 
-//         marks: { 
-//         Math: 80, 
-//         Science: 65, 
-//         English: 50, 
-//         History: 70 }, 
-//     getAverageMarks: function() { 
-//         let sum = 0;
-//         for (let subject in this.marks) {
-//             sum += this.marks[subject];
-//         }
-//         return sum / Object.keys(this.marks).length;       
-//     }, 
-//     checkPassOrFail: function() { 
-//         if(this.getAverageMarks() >= 40){
-//             return "Pass";
-//         }else{
-//             return "Fail";
-//         }
-//     } 
-// }; 
-// console.log(student.getAverageMarks()); 
+const student = {     
+        name: "Aryan Kumar", 
+        rollNumber: 101, 
+        marks: { 
+        Math: 80, 
+        Science: 65, 
+        English: 50, 
+        History: 70 }, 
+    getAverageMarks: function() { 
+        let sum = 0;
+        for (let subject in this.marks) {
+            sum += this.marks[subject];
+        }
+        return sum / Object.keys(this.marks).length;       
+    }, 
+    checkPassOrFail: function() { 
+        if(this.getAverageMarks() >= 40){
+            return "Pass";
+        }else{
+            return "Fail";
+        }
+    } 
+}; 
+console.log(student.getAverageMarks()); 
 
-// console.log(student.checkPassOrFail());  
+console.log(student.checkPassOrFail());  
 
 
 // const library = {     books: { 
