@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.UiPUEbeV9rotEm32f-UFkgHaEK&pid=Api&P=0&h=180);
+    background-size: cover;
+}
+
+#parent{
+    height: 450px;
+    width: 25%;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+input{
+    width: 87%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+input:focus{
+    background-color: rgb(124, 202, 224);
+}
+#parent button{
+    padding: 10px;
+    width: 50%;
+    border: none;
+    background-color: rgb(10, 2, 41);
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+#parent button:hover{
+    color: #0b0505;
+    background-color: rgb(159, 6, 156);
+    cursor: pointer;
+    
+}
+table{
+    border: 1px solid black;
+    /* color: rgb(17, 100, 32); */
+    border-collapse: collapse;
+    padding: 20px;
+    margin: auto;
+    td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        /* margin: 20px; */
+    }
+}
