@@ -1,0 +1,87 @@
+body{
+    /* background-image: url(https://kyong-dev.github.io/static/fb65437bbe2d8cb2679e0f64f60e82aa/e640c/javascript-thumbnail.jpg);
+    background-size: cover; */
+    background-color: rgb(219, 233, 234);
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+}
+
+
+
+#movie{
+    height: 600px;
+    width: 500px;
+    text-align: center;
+    background-color: rgb(54, 86, 137);
+    /* display: flex;
+    flex-direction: column; */
+    /* gap: 20px; */
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#form{
+    padding-top: 20px;
+}
+input{
+    width: 47%;
+    
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+#form #textarea{
+    width: 57%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#form #genre{
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#btn{
+    padding: 10px;
+    width: 30%;
+    border: none;
+    background-color: rgb(10, 2, 41);
+    margin-bottom: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-left: 170px;
+}
+#btn:hover{
+    color: black;
+    background-color: burlywood;
+    cursor: pointer;
+}
+#movieList{
+    height: 600px;
+    width: 55%;
+    background-color: rosybrown;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+#movieList table{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    /* margin-top: 20px; */
+}
+#movieList table th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#movieList input{
+    margin-left: 20px;
+}
+#tbody{
+    border: 1px solid black;
+    border-collapse: collapse;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="movieList">
+        <input type="text" id="search" placeholder="Search by Name or Genre" onkeyup="searchMovies()">
+        <button onclick="sortMovies()">Sort by Rating</button>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+        <table border="2">
+            <tr>
+                <th>Movie name</th>
+                <th>Release year</th>
+                <th>IMDB rating</th>
+                <th>Genre</th>
+                <th>Movie poster</th>
+                <th>Delete button</th>
+            </tr>
+            <tbody id="tbody"></tbody>
+        </table>
+        <p id="noMoviesMessage">No movies added yet!</p>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>

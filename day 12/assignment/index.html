@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="movie">
+        <form id="form">
+            <input type="text" placeholder="Movie Name" id="movieName">
+            <textarea name="" id="textarea" placeholder="Description"></textarea>
+            <input type="number" placeholder="year" id="numberInput">
+            <input type="number" placeholder=" IMDB rating 0-10" min="0" max="10" step="0.1" id="imdb" required>
+            <select name="" id="genre">
+                <option>Action</option>
+                <option>Horror</option>
+                <option>Drama</option>
+                <option>Sci-Fi</option>
+                <option>Comedy</option>
+            </select>
+            <input type="url" placeholder="Input to add an image:" id="url">
+            <button id="btn">Submit</button>
+        </form>
+        <button onclick="window.location.href='movie.html'">View Movies</button>
+        <p id="message"></p>
+    </div>
+    
+</body>
+
+</html>
+<script src="index.js"></script>
