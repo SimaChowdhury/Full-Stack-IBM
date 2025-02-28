@@ -1,0 +1,38 @@
+#navbar{
+    height: 60px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    nav{
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            
+        }
+    }
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    .product-box{
+        border: 2px solid #ccc;
+        height: 500px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        button{
+            background-color: aqua;
+            cursor: pointer;
+        }
+    }
+}

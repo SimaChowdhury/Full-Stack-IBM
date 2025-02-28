@@ -1,0 +1,55 @@
+#navbar{
+    height: 50px;
+    background-color: blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 30px; */
+}
+#navbar h1{
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+#navbar btn-cart{
+    background-color: yellowgreen;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin: 400px;
+}
+#navbar btn-cart:hover{
+    color: black;
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+.cart{
+    height: 600px;
+    width: 50%;
+    background-color: lightgray;
+    border: 2px solid black;
+    margin: auto;
+    border-collapse: collapse;
+}
+table{
+    border: 1px solid black;
+    /* color: rgb(17, 100, 32); */
+    border-collapse: collapse;
+    padding: 20px;
+    margin: auto;
+}
+.cart th{
+    border: 1px solid black;
+    padding: 30px;
+    border-collapse: collapse;
+    /* margin: auto; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* gap: 70px; */
+
+}
+#tbody{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
