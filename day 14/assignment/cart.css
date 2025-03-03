@@ -1,0 +1,42 @@
+#navbar{
+    height: 60px;
+    background-color: rgb(108, 93, 226);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+#navbar #checkbox button{
+    margin: 20px;
+    background-color: burlywood;
+    color: beige;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;    
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 50px;
+    border: 2px solid black;
+    margin: 50px auto 0px auto;
+}
+#cart #tbody{
+        th{
+            padding: 5px;
+            
+        }
+        img{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+        }
+        button{
+            background-color: #ff0000;
+            height: 30px;
+            width: 80px;
+            cursor: pointer;
+        }
+    }

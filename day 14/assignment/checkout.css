@@ -1,0 +1,60 @@
+#navbar{
+    height: 60px;
+    background-color: rgb(154, 203, 226);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+#navbar h2{
+    /* font-size: 20px; */
+    margin: auto;
+    color: rgb(6, 6, 11);
+    font-weight: bold;
+}
+#navbar button{
+    background-color: rgb(225, 246, 64);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#checkoutform{
+    height: 500px;
+    width: 400px;
+    background-color: aqua;
+    margin-top: 20px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#checkoutform #form{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* margin: 10px; */
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+
+    
+}
+#checkoutform #form input,select{
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+}
+
+#checkoutform #form button{
+    width: 100px;
+    background-color: rgb(202, 237, 113);
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
