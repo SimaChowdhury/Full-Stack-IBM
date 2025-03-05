@@ -1,0 +1,91 @@
+/* #loader-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+#loader{
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    border-bottom: 5px solid rgb(94, 219, 250);
+    border-top: 5px solid #5dc7e4;
+    border-radius: 50%;
+    animation: spin 2s linear infinite glow 1.4s alternate-reverse infinite;
+}
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+@keyframes glow{
+    0%{background-color: white;}
+    50%{background-color: rgb(94, 219, 250);}
+    100%{background-color: white;}
+} */
+
+#nav-bar {
+    height: 60px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+#nav-bar #nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+/* #nav-bar #nav-logo .fa-solid fa-bars{
+    height: 10px;
+    width: 20px;
+    /* font-size:4rem; */
+
+
+/* #nav-bar #nav-logo #bar{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin: 5px;
+} */
+/* #nav-bar #nav-logo #you i{
+    /* height: 40px; */
+
+#nav-bar #nav-logo #you{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-bar #nav-logo #you h2{
+    font-size: 22px;
+    color: black;
+    margin-left: 5px;
+    font-weight: 900;
+    sup{
+        font-size: 18px;
+        color: red;
+    }
+}
+#nav-bar #nav-logo #you h2 sup{
+    font-size: 12px;
+    color: black;
+    font-weight: lighter;
+}
+#nav-bar #search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#nav-bar #search #search-box input{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
